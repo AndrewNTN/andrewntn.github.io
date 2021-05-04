@@ -165,7 +165,7 @@ footer ul li {
   }
 
   #home {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     width: 11%;
     height: auto;
   }
@@ -185,5 +185,10 @@ footer ul li {
     margin: 0.6rem 0.7rem;
     padding: 0 0;
     font-size: 15px;
+  }
+
+  #mainnav ul {
+    float: left;
+    margin-left: 1.3rem;
   }
 }
