@@ -139,4 +139,8 @@ hr {
     padding: 0 0;
     font-size: 17px;
   }
+  
+  #mainnav ul {
+    margin-right: 0.8rem;
+  }
 }
