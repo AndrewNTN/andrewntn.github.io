@@ -197,31 +197,18 @@ hr {
     "project4";
     grid-gap: 5rem;
     padding: 0.2rem 3.2rem;
-  }
+  } 
 
   #home {
-    visibility: hidden;
+    display: none;
   }
 
   #hometext {
-    visibility: hidden;
-    position: relative;
-  }
-
-  #hometext:after {
     visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 2.53rem 0.5rem;
-    margin-left: 2.2rem;
-    padding: 0 0;
     font-size: 20px;
     font-weight: 800;
-    font-family: 'Rubik', Arial, sans-serif;
-    line-height: 1.25em;
-    letter-spacing: 2px;
     content: "Home";
+    float: left;
   }
 
   #title {
