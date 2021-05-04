@@ -165,7 +165,7 @@ footer ul li {
   }
 
   #home {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     width: 11%;
     height: auto;
   }
@@ -189,5 +189,6 @@ footer ul li {
 
   #mainnav ul {
     float: left;
+    margin-left: 1vw; 
   }
 }

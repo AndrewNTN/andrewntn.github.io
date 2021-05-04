@@ -116,7 +116,7 @@ hr {
   }
 
   #home {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     width: 11%;
     height: auto;
   }
@@ -143,5 +143,6 @@ hr {
 
   #mainnav ul {
     float: left;
+    margin-left: 1vw; 
   }
 }
