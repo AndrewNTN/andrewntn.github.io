@@ -116,9 +116,28 @@ hr {
   }
 
   #home {
-    margin-top: 2rem;
-    width: 11%;
-    height: auto;
+    visibility: hidden;
+  }
+
+  #hometext {
+    visibility: hidden;
+    position: relative;
+  }
+
+  #hometext:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2.53rem 1rem;
+    margin-left: 2.6rem;
+    padding: 0 0;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Rubik', Arial, sans-serif;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+    content: "Home";
   }
 
   #faceimg {
@@ -135,7 +154,6 @@ hr {
   }
 
   #mainnav ul li{
-    float: left;
     margin: 0.6rem 0.7rem;
     padding: 0 0;
     font-size: 15px;
@@ -143,6 +161,5 @@ hr {
 
   #mainnav ul {
     float: left;
-    margin-left: 100vw; 
   }
 }
