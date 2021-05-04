@@ -1,0 +1,178 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: auto;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75em;
+  text-transform: none;
+  letter-spacing: 0.4px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  background-color: #f6f5f5;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #303030;
+}
+
+footer {
+  background-color: #191b25;
+  grid-area: footer;
+}
+
+footer ul {
+  text-align: left;
+}
+
+footer ul li {
+  margin: 1.5rem 0.85rem;
+  float: left;
+  display: inline;
+  list-style-type: none;
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5rem 18rem 20rem 20rem 8rem;
+  grid-template-areas:
+    "nav nav nav"
+    "desc desc desc"
+    "project1 project1 project2"
+    "project1 project1 project3"
+    "footer footer footer";
+}
+
+.projimg {
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(85%);
+  transition: all 0.2s linear;
+}
+
+.projname {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 3.3rem;
+  color: #fafafa;
+  opacity: 0%;
+  cursor: default;
+  transition: all 0.4s linear;
+}
+
+.projimg:hover {
+  filter: brightness(25%);
+}
+
+.projimg:hover + .projname {
+  display: block;
+  opacity: 100%;
+}
+
+#home {
+  margin: 0.6rem 1rem;
+  padding: 0.2rem 1.5rem;
+  float: left;
+  display: inline;
+}
+
+#mainnav {
+  grid-area: nav;
+}
+
+#mainnav ul {
+  padding: 1.2rem 1.2rem;
+}
+
+#mainnav ul li {
+  margin: 0.6rem 1.2rem;
+  padding: 0.2rem 1.5rem;
+  font-family: 'Rubik', Arial, sans-serif;
+  line-height: 1.25em;
+  letter-spacing: 2px;
+  font-size: 19px;
+  font-style: normal;
+  list-style-type: none;
+  float: right;
+  display: inline;
+  color: #303030;
+}
+
+#mainnav ul li a {
+  transition: color 0.25s linear;
+}
+
+#mainnav ul li a:hover {
+  color: #B8B8B8;
+}
+
+#description {
+  margin: 0.5rem 1.2rem;
+  padding: 1.2rem 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 43px;
+  line-height: 3.2rem;
+  grid-area: desc;
+  overflow-wrap: break-word;
+  text-align: start;
+}
+
+#project1 {
+  position: relative;
+  grid-area: project1;
+  overflow: hidden;
+  text-align: center;
+}
+
+#project2 {
+  position: relative;
+  grid-area: project2;
+  overflow: hidden;
+  text-align: center;
+}
+
+#project3 {
+  position: relative;
+  grid-area: project3;
+  overflow: hidden;
+  text-align: center;
+}
+
+@media only screen and (max-width:600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 18rem 15rem 15rem 15rem 8rem;
+    grid-template-areas: 
+      "nav"
+      "desc"
+      "project1"
+      "project2"
+      "project3"
+      "footer";
+  }
+
+  #description {
+    font-size: 32px;
+    line-height: 2.5rem;
+    overflow-wrap: break-word;
+    text-align: start;
+  }
+
+  #mainnav ul li{
+    margin: 0.6rem 0.8rem;
+    padding: 0 0;
+  }
+}
