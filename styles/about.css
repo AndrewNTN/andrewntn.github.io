@@ -123,11 +123,6 @@ hr {
     display: none;
   }
 
-  #hometext {
-    visibility: visible;
-    content: "Home";
-  }
-
   #faceimg {
     margin: 0;
     margin-bottom: 3rem;
@@ -147,10 +142,16 @@ hr {
     font-size: 15px;
   }
 
+  #hometext {
+    font-size: 20;
+    font-weight: 600;
+    visibility: visible;
+    content: "Home";
+  }
+
   #mainnav ul {
     padding: 0;
     padding-top: 1.2rem;
-    margin-left: 1rem;
-    float: left;
+    float: none;
   }
 }
