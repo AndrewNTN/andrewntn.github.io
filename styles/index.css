@@ -66,11 +66,11 @@ footer ul li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  line-height: 3.3rem;
+  line-height: 3.3rem; 
   color: #fafafa;
   opacity: 0%;
   cursor: default;
-  transition: all 0.4s linear;
+  transition: opacity 0.4s linear;
 }
 
 .projimg:hover {
@@ -189,6 +189,6 @@ footer ul li {
 
   #mainnav ul {
     float: left;
-    margin-left: 1vw; 
+    margin-left: 0.1rem; 
   }
 }

@@ -143,6 +143,6 @@ hr {
 
   #mainnav ul {
     float: left;
-    margin-left: 1vw; 
+    margin-left: 0.1rem; 
   }
 }
