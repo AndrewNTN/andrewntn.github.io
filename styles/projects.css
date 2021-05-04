@@ -47,6 +47,7 @@ hr {
 }
 
 .projdesc {
+  margin: 0 1.5rem;
   min-height: 50%;
 }
 
@@ -189,11 +190,12 @@ hr {
   }
 
   #title {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   #mainnav ul li{
     margin: 0.6rem 0.8rem;
     padding: 0 0;
+    font-size: 17px;
   }
 }
