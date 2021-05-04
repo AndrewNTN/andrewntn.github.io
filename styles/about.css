@@ -114,10 +114,11 @@ hr {
   }
 
   #title {
-    font-size: 25px;
+    font-size: 27px;
   }
 
   #faceimg {
+    margin: 0 1.5rem;
     margin-bottom: 3rem;
   }
 
@@ -128,7 +129,7 @@ hr {
   }
 
   #mainnav ul li{
-    margin: 0.6rem 0.8rem;
+    margin: 0.6rem 0.5rem;
     padding: 0 0;
     font-size: 17px;
   }
