@@ -204,9 +204,10 @@ hr {
     padding: 0 0;
     font-size: 15px;    
   }
-  
+
   #mainnav ul {
     float: left;
+    margin: 0;
     margin-left: 1.3rem;
   }
 }
