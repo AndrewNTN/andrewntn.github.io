@@ -152,6 +152,7 @@ hr {
   #mainnav ul {
     padding: 0;
     padding-top: 1.2rem;
+    padding-right: 0.1rem;
     float: none;
   }
 }
