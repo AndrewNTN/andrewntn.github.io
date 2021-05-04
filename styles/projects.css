@@ -189,18 +189,19 @@ hr {
     padding: 0.2rem 3.2rem;
   }
 
+  #home {
+    margin-top: 1rem;
+    width: 11%;
+    height: auto;
+  }
+
   #title {
     font-size: 27px;
   }
 
   #mainnav ul li{
-    margin: 0.3rem 0.2rem;
+    margin: 0.6rem 0.7rem;
     padding: 0 0;
     font-size: 15px;    
-  }
-
-  #mainnav ul {
-    margin: 0;
-    margin-right: 4rem;
   }
 }
