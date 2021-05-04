@@ -196,6 +196,11 @@ hr {
   #mainnav ul li{
     margin: 0.6rem 0.5rem;
     padding: 0 0;
-    font-size: 17px;
+    font-size: 15px;    
+  }
+
+  #mainnav ul {
+    margin: 0;
+    margin-right: 1.2rem;
   }
 }
