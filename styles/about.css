@@ -125,10 +125,7 @@ hr {
 
   #hometext {
     visibility: visible;
-    font-size: 20px;
-    font-weight: 800;
     content: "Home";
-    float: left;
   }
 
   #faceimg {
