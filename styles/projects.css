@@ -94,13 +94,8 @@ hr {
   padding: 1.2rem 1.2rem;
 }
 
-#home {
-  visibility: hidden;
-}
-
 #hometext {
   visibility: hidden;
-  position: relative;
 }
 
 #home {

@@ -89,6 +89,10 @@ footer ul li {
   display: inline;
 }
 
+#hometext {
+  visibility: hidden;
+}
+
 #mainnav {
   grid-area: nav;
 }
