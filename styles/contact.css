@@ -67,7 +67,7 @@ hr {
 #email {
   position: relative;
   grid-area: email;
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
   background-color: #99aab5;
   color: #fafafa;
   border-radius: 0.5rem;
