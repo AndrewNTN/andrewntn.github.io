@@ -64,15 +64,6 @@ hr {
   text-align: center;
 }
 
-#discord {
-  position: relative;
-  grid-area: disc;
-  margin: 0.5rem 1rem;
-  background-color: #7289da;
-  color: #fafafa;
-  border-radius: 0.5rem;
-}
-
 #email {
   position: relative;
   grid-area: email;
